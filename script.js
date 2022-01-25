@@ -62,6 +62,7 @@ const restaurant = {
   },
 };
 
+/*
 //Looping Objects
 
 //property Names
