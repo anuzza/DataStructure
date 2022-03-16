@@ -74,8 +74,7 @@ const allPlayers = [...players1, ...players2];
 console.log(allPlayers);
 
 //4.
-const players1Final = [...players1, 'Thiago', 'Coutinho', 'Perisic'];
-console.log(players1Final);
+const players1Final = [...players1, 'Thiago', 'Coutinho', 'Periscic'];
 
 //5.
 const {
@@ -84,17 +83,11 @@ const {
 console.log(team1, draw, team2);
 
 //6.
-
 const printGoals = function (...players) {
-  console.log(players);
   console.log(`${players.length} goals were scored`);
 };
-
-printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
-printGoals('Davis', 'Muller');
 printGoals(...game.scored);
 
 //7.
 team1 < team2 && console.log('Team1 is more likely to win');
-
 team1 > team2 && console.log('Team2 is more likely to win');
